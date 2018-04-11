@@ -1,0 +1,31 @@
+.back{
+    /* background:url('./back4.jpg'); */
+    background-size: cover;
+    padding-top: 100px; 
+}
+
+.example-enter {
+    opacity: 0.01;
+    background-color: purple;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+    background-color: purple;
+  }
+  
+  .example-leave {
+    opacity: 1;
+
+    background-color: purple;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+
+    background-color: purple;
+  }
+  
+  

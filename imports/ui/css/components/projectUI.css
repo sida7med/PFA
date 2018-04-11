@@ -1,0 +1,56 @@
+.projectUi{
+    min-width: 260px;
+    max-width: 275px;
+    max-height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    background-color: white;
+    box-shadow: gainsboro 0px 2px 4px;
+}
+.addUi{
+    max-width: 260px;
+    max-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    background-color: white;
+    box-shadow: gainsboro 0px 2px 4px;
+}
+.field{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: pTitle;
+}
+
+.del{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: 0;
+}
+.del:hover{
+    opacity: 1;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+.fav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border:solid 2px rgb(248, 222, 76);
+}
+
+.notfav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: solid 1.5px white;
+}
